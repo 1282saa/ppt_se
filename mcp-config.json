@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ppt_sed": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@1282saa/ppt_sed",
+        "--key",
+        "10ed123b-3638-4639-bfac-4875e562eaca"
+      ]
+    }
+  }
+}

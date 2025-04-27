@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ppt_se"
+version = "1.0.0"
+description = "PowerPoint MCP 서버 - python-pptx를 활용한 프레젠테이션 자동화"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "1282saa", email = "your-email@example.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
+dependencies = [
+    "python-pptx>=0.6.21",
+    "mcp[cli]>=1.3.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/1282saa/ppt_se"
+"Bug Tracker" = "https://github.com/1282saa/ppt_se/issues"
+
+[tool.hatch.build.targets.wheel]
+only-include = [
+    "main.py", 
+    "ppt_mcp_server.py", 
+    "ppt_generator.py", 
+    "config_loader.py",
+    "ppt_utils.py", 
+    "utils", 
+    "data"
+]
+sources = ["."]
+
+[project.scripts]
+ppt_mcp_server = "ppt_mcp_server:main"
+main = "main:main"

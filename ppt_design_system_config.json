@@ -1,0 +1,53 @@
+{
+  "slide_text_settings": {
+    "title_font": "Pretendard SemiBold",
+    "title_font_size": 36,
+    "body_font": "Pretendard Light",
+    "body_font_size": 20,
+    "text_alignment": "center",
+    "line_spacing": 1.3,
+    "auto_font_resize_threshold": 50,
+    "font_resize_rate": 0.9
+  },
+  "slide_layouts": {
+    "basic_title": {
+      "elements": ["title", "subtitle"]
+    },
+    "title_content": {
+      "elements": ["title", "body"]
+    },
+    "two_column": {
+      "elements": ["title", "left_text", "right_text"]
+    },
+    "text_shape_mix": {
+      "elements": ["title", "body", "icon"]
+    }
+  },
+  "table_styles": {
+    "default": {
+      "header_bg_color": [242, 242, 242],
+      "header_font_bold": true,
+      "header_font_size": 14,
+      "body_font_size": 12,
+      "padding_top": 6,
+      "padding_bottom": 6,
+      "padding_left": 8,
+      "padding_right": 8,
+      "border_color": [221, 221, 221],
+      "border_width": 0.75,
+      "cell_text_alignment": "center"
+    }
+  },
+  "shape_styles": {
+    "default": {
+      "fill_color": [245, 245, 245],
+      "outline_color": [189, 189, 189],
+      "outline_width": 1.0,
+      "text_font": "Pretendard",
+      "text_font_size": 18,
+      "text_alignment_horizontal": "center",
+      "text_alignment_vertical": "middle",
+      "line_spacing": 1.2
+    }
+  }
+}

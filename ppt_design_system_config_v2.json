@@ -1,0 +1,116 @@
+{
+  "slide_text_settings": {
+    "title_font": "Pretendard SemiBold",
+    "title_font_size": 36,
+    "body_font": "Pretendard Light",
+    "body_font_size": 20,
+    "text_alignment": "center",
+    "line_spacing": 1.3,
+    "auto_font_resize_threshold": 50,
+    "font_resize_rate": 0.9,
+    "text_adaptive_rules": {
+      "max_chars_single_line": 50,
+      "font_scale_factor": 0.9,
+      "wrap_text_threshold": 80
+    }
+  },
+  "slide_layouts": {
+    "basic_title": {
+      "elements": ["title", "subtitle"],
+      "background_color": [255, 255, 255]
+    },
+    "title_content": {
+      "elements": ["title", "body"],
+      "background_color": [255, 255, 255]
+    },
+    "two_column": {
+      "elements": ["title", "left_text", "right_text"],
+      "background_color": [255, 255, 255]
+    },
+    "text_shape_mix": {
+      "elements": ["title", "body", "icon"],
+      "background_color": [255, 255, 255]
+    }
+  },
+  "slide_overrides": {
+    "table_slide": {
+      "body_font_size": 16,
+      "background_color": [245, 245, 245]
+    }
+  },
+  "table_styles": {
+    "default": {
+      "header_bg_color": [242, 242, 242],
+      "header_font_bold": true,
+      "header_font_size": 14,
+      "body_font_size": 12,
+      "padding_top": 6,
+      "padding_bottom": 6,
+      "padding_left": 8,
+      "padding_right": 8,
+      "border_color": [221, 221, 221],
+      "border_width": 0.75,
+      "cell_text_alignment": "center"
+    },
+    "compact_2col": {
+      "header_font_size": 16,
+      "body_font_size": 14,
+      "padding_top": 4,
+      "padding_bottom": 4,
+      "padding_left": 6,
+      "padding_right": 6
+    },
+    "data_table": {
+      "cell_text_alignment": "right",
+      "border_color": [200, 200, 200],
+      "border_width": 1.0
+    }
+  },
+  "shape_styles": {
+    "default": {
+      "fill_color": [245, 245, 245],
+      "outline_color": [189, 189, 189],
+      "outline_width": 1.0,
+      "text_font": "Pretendard",
+      "text_font_size": 18,
+      "text_alignment_horizontal": "center",
+      "text_alignment_vertical": "middle",
+      "line_spacing": 1.2
+    },
+    "highlight_circle": {
+      "fill_color": [0, 102, 255],
+      "outline_color": [0, 102, 255],
+      "text_color": [255, 255, 255],
+      "text_font": "Pretendard",
+      "text_font_size": 20
+    },
+    "connector_line": {
+      "fill_color": [0, 0, 0],
+      "outline_width": 2.0
+    }
+  },
+  "themes": {
+    "default": {
+      "primary_color": [30, 144, 255],
+      "secondary_color": [245, 245, 245],
+      "background_color": [255, 255, 255]
+    },
+    "dark": {
+      "primary_color": [255, 255, 255],
+      "secondary_color": [34, 34, 34],
+      "background_color": [34, 34, 34]
+    },
+    "corporate": {
+      "primary_color": [0, 51, 102],
+      "secondary_color": [255, 255, 255],
+      "background_color": [255, 255, 255]
+    }
+  },
+  "animation_settings": {
+    "default": {
+      "title_animation": "fade_in",
+      "content_animation": "appear",
+      "animation_duration": 1.0
+    }
+  }
+}

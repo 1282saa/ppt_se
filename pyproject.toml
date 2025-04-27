@@ -3,13 +3,13 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "office-powerpoint-mcp-server"
+name = "ppt_se"
 version = "1.0.0"
-description = "MCP Server for PowerPoint manipulation using python-pptx"
+description = "PowerPoint MCP 서버 - python-pptx를 활용한 프레젠테이션 자동화"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
-    {name = "GongRzhe", email = "gongrzhe@gmail.com"}
+    {name = "1282saa", email = "your-email@example.com"}
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -23,12 +23,21 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/GongRzhe/Office-PowerPoint-MCP-Server.git"
-"Bug Tracker" = "https://github.com/GongRzhe/Office-PowerPoint-MCP-Server.git/issues"
+"Homepage" = "https://github.com/1282saa/ppt_se"
+"Bug Tracker" = "https://github.com/1282saa/ppt_se/issues"
 
 [tool.hatch.build.targets.wheel]
-only-include = ["ppt_mcp_server.py", "ppt_utils.py"]
+only-include = [
+    "main.py", 
+    "ppt_mcp_server.py", 
+    "ppt_generator.py", 
+    "config_loader.py",
+    "ppt_utils.py", 
+    "utils", 
+    "data"
+]
 sources = ["."]
 
 [project.scripts]
 ppt_mcp_server = "ppt_mcp_server:main"
+main = "main:main"
